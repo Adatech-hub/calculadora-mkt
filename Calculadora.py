@@ -1,10 +1,17 @@
 import streamlit as st
 
 # Configuração da página
-st.set_page_config(page_title="Simulador de Margem - ADATECH", layout="centered")
+# Este é o link direto (raw) para a sua imagem
+URL_LOGO = "https://raw.githubusercontent.com/Adatech-hub/calculadora-mkt/main/Up%20logo.png"
 
-st.title("📊 Simulador de Custos e Margem")
-st.markdown("Calcule sua lucratividade considerando promoções e a carga tributária da ADATECH.")
+st.set_page_config(
+    page_title="Calculadora ADATECH",
+    page_icon=URL_LOGO,
+    layout="centered"
+)
+
+st.title("📊 Precificação de anúncios")
+st.markdown("Calcule sua lucratividade considerando promoções e a carga tributária do Marketplace.")
 
 # Sidebar com custo fixo padrão em 0
 with st.sidebar:
