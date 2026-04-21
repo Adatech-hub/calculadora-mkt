@@ -4,7 +4,7 @@ import streamlit as st
 URL_LOGO = "https://raw.githubusercontent.com/Adatech-hub/calculadora-mkt/main/Up%20logo.png"
 
 st.set_page_config(
-    page_title="Calculadora ADATECH",
+    page_title="Calculadora UP",
     page_icon=URL_LOGO,
     layout="centered"
 )
@@ -72,7 +72,7 @@ if margem_contribuicao < 15:
 elif 15 <= margem_contribuicao <= 25:
     st.warning("⚖️ Margem aceitável para giro.")
 else:
-    st.success("✅ Margem excelente para a ADATECH!")
+    st.success("✅ Margem excelente para o seu produto!")
 
 # 7. TABELA DETALHADA
 st.write("### Detalhamento de Saídas")
