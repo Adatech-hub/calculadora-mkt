@@ -18,7 +18,7 @@ with col_logo:
 with col_titulo:
     st.title("Precificação de Anúncios")
 
-st.markdown("Calcule sua lucratividade considerando promoções e a carga tributária da ADATECH.")
+st.markdown("Calcule sua lucratividade considerando promoções e a carga tributária da sua loja Online.")
 
 # 3. BARRA LATERAL (CONFIGURAÇÕES FIXAS)
 with st.sidebar:
