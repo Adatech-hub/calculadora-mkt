@@ -62,8 +62,8 @@ st.divider()
 
 # 6. EXIBIÇÃO DOS RESULTADOS (MÉTRICAS)
 m1, m2, m3 = st.columns(3)
-m1.metric("Lucro Líquido", f"R$ {lucro_liquido:.2f}")
-m2.metric("Margem", f"{margem_contribuicao:.2f}%")
+m1.metric("Margem de Contribuição", f"R$ {lucro_liquido:.2f}")
+m2.metric("Percentual", f"{margem_contribuicao:.2f}%")
 m3.metric("Custo Total", f"R$ {custo_total:.2f}")
 
 # Alertas de Margem
