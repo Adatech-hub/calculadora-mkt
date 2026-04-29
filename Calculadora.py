@@ -1,10 +1,10 @@
 import streamlit as st
 
 # 1. CONFIGURAÇÃO DA PÁGINA
-URL_LOGO = "https://raw.githubusercontent.com/Adatech-hub/calculadora-mkt/main/Up%20logo.png"
+URL_LOGO = "https://raw.githubusercontent.com/Adatech-hub/calculadora-mkt/main/Logo.png"
 
 st.set_page_config(
-    page_title="Calculadora UP",
+    page_title="Adatech Calc",
     page_icon=URL_LOGO,
     layout="centered"
 )
